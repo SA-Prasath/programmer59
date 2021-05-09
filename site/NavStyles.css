@@ -1,0 +1,46 @@
+.bdy
+{
+    background-color:rgba(0, 128, 0, 0.884);
+    transition:0.5s;
+    /* #573349 */
+}
+.nav
+{
+    background-color:#a86b91;
+    margin-top:10px;
+    min-height:60px;
+    transition:0.5s;
+    display:none;
+}
+.nav li
+{
+    
+    font-family:Impact, 'Arial Narrow Bold', sans-serif;
+    display:inline-block;
+    font-size:25px;
+    margin-top:10px;
+    margin-left: 120px;
+    cursor:pointer;
+    background:url("Images/Bg.jpg");
+    border:1px solid black;
+    padding-left:15px;
+    padding-right:15px;
+    padding-top:5px;
+    padding-bottom:5px;
+    box-shadow:5px 5px 8px yellow;
+    text-shadow:2px 2px 5px blue;
+    transition:0.5s;
+}
+#cp
+{
+    display:inline-block;
+    margin-top:5px;
+    margin-left:-35px;
+    padding-right:-10px;
+    color: rgba(0, 0, 0, 0.952);
+    font-size:30px;
+    cursor:default;
+    height: 50px;
+    text-shadow: 3px 3px 6px blue;
+    transition:0.5s;
+}
